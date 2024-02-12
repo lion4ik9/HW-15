@@ -1,0 +1,48 @@
+.holder {
+    border: 8px solid black;
+    border-radius: 10px;
+    border-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    height: 100px;
+    flex-basis: 420px;
+    font-size: 45px;
+    text-align: center;
+    
+
+}
+
+#one {
+    background-color: coral;
+    order: 1;
+    flex-grow: 2;
+}
+
+#two {
+    background-color: cadetblue;
+    order: 4;
+    flex-grow: 1;
+}
+
+#three {
+    background-color: purple;
+    order: 3;
+    flex-grow: 1;
+}
+
+#four {
+    background-color: green;
+    order: 5;
+    flex-grow: 1;
+}
+
+#five {
+    background-color: goldenrod;
+    order: 2;
+    flex-grow: 2;
+}
+
