@@ -5,11 +5,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 600px;
 }
 
 .item {
     height: 100px;
-    flex-basis: 420px;
+    flex-basis: 90px;
     font-size: 45px;
     text-align: center;
     
@@ -18,6 +19,7 @@
 
 #one {
     background-color: coral;
+    flex-basis: 50%;
     order: 1;
     flex-grow: 2;
 }
@@ -42,6 +44,7 @@
 
 #five {
     background-color: goldenrod;
+    flex-basis: 50%;
     order: 2;
     flex-grow: 2;
 }
